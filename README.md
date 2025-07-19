@@ -1,8 +1,8 @@
-# 🌱 Plant Disease Detection using Swin Transformer
+#  Plant Disease Detection using Swin Transformer
 
 A deep learning-based plant disease detection system using Swin Transformer architecture, trained on the PlantVillage dataset. This project provides both a trained model and a web application for real-time plant disease classification.
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -16,7 +16,7 @@ A deep learning-based plant disease detection system using Swin Transformer arch
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Overview
+##  Overview
 
 Plant diseases pose a significant threat to global food security. Early detection and accurate classification of plant diseases are crucial for effective crop management. This project implements a state-of-the-art Swin Transformer model for automated plant disease detection from leaf images.
 
@@ -26,15 +26,15 @@ Plant diseases pose a significant threat to global food security. Early detectio
 - **38 Disease Categories**: Covers multiple plant species and disease types
 - **User-friendly Interface**: Streamlit web application with intuitive design
 
-## 🚀 Features
+##  Features
 
-- ✅ **Swin Transformer Architecture**: State-of-the-art vision transformer
-- ✅ **Web Application**: Streamlit-based interface for easy interaction
-- ✅ **Comprehensive Evaluation**: Detailed performance metrics and visualizations
-- ✅ **Pre-trained Model**: Ready-to-use trained model (332MB)
-- ✅ **Multiple Plant Support**: Apple, Blueberry, Cherry, Corn, Grape, Orange, Peach, Pepper, Potato, Raspberry, Soybean, Squash, Strawberry, Tomato
+-  **Swin Transformer Architecture**: State-of-the-art vision transformer
+-  **Web Application**: Streamlit-based interface for easy interaction
+-  **Comprehensive Evaluation**: Detailed performance metrics and visualizations
+-  **Pre-trained Model**: Ready-to-use trained model (332MB)
+-  **Multiple Plant Support**: Apple, Blueberry, Cherry, Corn, Grape, Orange, Peach, Pepper, Potato, Raspberry, Soybean, Squash, Strawberry, Tomato
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 ### Swin Transformer Base
 - **Architecture**: Swin Transformer Base Patch4 Window7 224
@@ -51,7 +51,7 @@ Plant diseases pose a significant threat to global food security. Early detectio
 - **Batch Size**: 32
 - **Device**: CPU/GPU compatible
 
-## 📊 Dataset
+##  Dataset
 
 ### PlantVillage Dataset
 - **Source**: [PlantVillage Dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)
@@ -76,7 +76,7 @@ Plant diseases pose a significant threat to global food security. Early detectio
 - **Strawberry**: Leaf scorch, Healthy
 - **Tomato**: Bacterial spot, Early blight, Late blight, Leaf mold, Septoria leaf spot, Spider mites, Target spot, Yellow leaf curl virus, Mosaic virus, Healthy
 
-## 📈 Performance
+##  Performance
 
 ### Evaluation Results
 - **Accuracy**: 99.76%
@@ -124,7 +124,7 @@ Plant diseases pose a significant threat to global food security. Early detectio
    # data/PlantVillage-Dataset/raw/color/
    ```
 
-## 🚀 Usage
+##  Usage
 
 ### 1. Training the Model
 ```bash
@@ -155,7 +155,7 @@ The web application will open in your browser at `http://localhost:8501`
 python src/test_model.py
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 plant-disease-detection/
@@ -182,7 +182,7 @@ plant-disease-detection/
 └── README.md                 # This file
 ```
 
-## 📊 Results
+##  Results
 
 ### Model Performance
 The trained Swin Transformer model achieves excellent performance across all metrics:
@@ -198,7 +198,7 @@ The evaluation generates several visualizations:
 - **Performance Analysis**: Confidence distribution, accuracy vs confidence, class-wise accuracy
 - **Classification Report**: Detailed metrics for each disease class
 
-## 🔧 Technical Details
+##  Technical Details
 
 ### Preprocessing
 - **Image Resizing**: 224×224 pixels
@@ -217,7 +217,7 @@ The evaluation generates several visualizations:
 - **Memory**: 8GB+ RAM recommended
 - **Storage**: 5GB+ for dataset and model
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -228,18 +228,18 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **PlantVillage Dataset**: For providing the comprehensive plant disease dataset
 - **Swin Transformer**: Microsoft Research for the transformer architecture
 - **PyTorch**: For the deep learning framework
 - **Streamlit**: For the web application framework
 
-## 📞 Contact
+##  Contact
 
 For questions or support, please open an issue on GitHub.
 
