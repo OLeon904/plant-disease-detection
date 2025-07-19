@@ -103,7 +103,7 @@ Plant diseases pose a significant threat to global food security. Early detectio
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/OLeon904/plant-disease-detection.git
    cd plant-disease-detection
    ```
 
