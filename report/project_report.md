@@ -285,7 +285,9 @@ The Swin Transformer-based plant disease detection system represents a significa
 ## 10. Appendices
 
 ### Appendix A: Complete Code Repository
-GitHub Repository: [Plant Disease Detection](https://github.com/your-username/plant-disease-detection)
+GitHub Repository: [https://github.com/OLeon904/plant-disease-detection](https://github.com/OLeon904/plant-disease-detection)
+
+Full URL: https://github.com/OLeon904/plant-disease-detection
 
 ### Appendix B: Installation Instructions
 See README.md for detailed setup instructions.
@@ -295,3 +297,11 @@ All evaluation results are available in the `results/` directory.
 
 ### Appendix D: Model Architecture Details
 Complete model specifications and training logs are provided in the source code. 
+
+### Appendix E: Streamlit Web App Access
+The deployed Streamlit web application for real-time plant disease detection can be accessed at:
+- Local: http://localhost:8501
+- Network: http://172.23.194.122:8501
+- External: http://73.24.225.136:8501
+
+Please ensure the app is running on the host machine to access via these URLs. 
